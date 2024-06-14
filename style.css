@@ -1,0 +1,63 @@
+* {
+    font-size: 16px;
+}
+
+:root {
+    --textcolor: #fff;
+    --background: green;
+
+}
+
+section {
+    color: var(--textcolor);
+    background-color: var(--background);
+    border: solid black;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: gray
+}
+
+.Flex-Box-Row {
+    width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;;
+}
+
+.Flex-Box-Column {
+    width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.CSS-Grid-Layout {
+    width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Linear-Gradient {
+    width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Box-Transition-Glow {
+    width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+}
+
+.Overlay-Card-with-Title {
+    width: 100px;
+    border: 15px black;
+    padding: 50px;
+    margin: 20px;
+}
